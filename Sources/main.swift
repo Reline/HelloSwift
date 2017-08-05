@@ -1,3 +1,7 @@
 print("What's your name?")
 let response = readLine() ?? ""
-print("Hello \(response)!")
+if response == "Alice" || response == "Bob" {
+	print("Hello \(response)!")
+} else {
+	print("Hello!")
+}
